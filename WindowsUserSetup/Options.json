@@ -1,0 +1,5 @@
+{
+    "UILanguages": [ "en-US", "pt-BR", "es-ES" ],
+    "InputLocales": [ "0409:00000409", "0416:00000416", "0c0a:00000c0a" ],
+    "TimeZones": [ "UTC", "GMT Standard Time", "E. South America Standard Time" ]
+}
