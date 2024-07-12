@@ -46,7 +46,7 @@ namespace WindowsUserSetup
 
         private async void Form1_Load(object sender, EventArgs e)
         {
-            string jsonUrl = "https://example.com/Options.json"; // Atualize esta URL para o local onde você hospedou o JSON
+            string jsonUrl = "https://github.com/ScryterX/WindowsUserSetup.git"; // Atualize esta URL para o local onde você hospedou o JSON
             await ConfigurationManager.UpdateOptionsJson(jsonUrl, "Options.json");
             LoadSettings();
             PopulateOptions();
